@@ -1,20 +1,20 @@
-require "spec_helper"
+# require "spec_helper"
 
-describe "Artist" do
+# describe "Artist" do
 
-  let!(:adele) { Artist.new("Adele") }
+#   let!(:adele) { Artist.new("Adele") }
 
-    describe "#new" do
-      it "is initialized with a name" do
-        expect{Artist.new("Beyonce")}.to_not raise_error
-      end
-    end
+#     describe "#new" do
+#       it "is initialized with a name" do
+#         expect{Artist.new("Beyonce")}.to_not raise_error
+#       end
+#     end
 
-    describe "#name" do
-      it "has an attr_accessor for name" do
-        expect(adele.name).to eq("Adele")
-      end
-    end
+#     describe "#name" do
+#       it "has an attr_accessor for name" do
+#         expect(adele.name).to eq("Adele")
+#       end
+#     end
 
     describe "#songs" do
       it "has many songs" do
